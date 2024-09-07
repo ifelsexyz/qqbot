@@ -1,0 +1,33 @@
+{
+  "http": {
+    "enable": false,
+    "host": "",
+    "port": 3000,
+    "secret": "",
+    "enableHeart": false,
+    "enablePost": false,
+    "postUrls": []
+  },
+  "ws": {
+    "enable": false,
+    "host": "",
+    "port": 3001
+  },
+  "reverseWs": {
+    "enable": true,
+    "urls": [
+      "ws://127.0.0.1:10001/onebot/v11/ws"
+    ]
+  },
+  "debug": false,
+  "heartInterval": 30000,
+  "messagePostFormat": "array",
+  "enableLocalFile2Url": true,
+  "musicSignUrl": "",
+  "reportSelfMessage": false,
+  "token": "",
+  "GroupLocalTime": {
+    "Record": false,
+    "RecordList": []
+  }
+}
