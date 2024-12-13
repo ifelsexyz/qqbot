@@ -6,8 +6,8 @@ from nonebot.adapters.onebot.v11 import GroupMessageEvent,Bot,Message,MessageSeg
 import os
 import qianfan
 
-os.environ["QIANFAN_AK"] = "bHMOWdRpEGMFmNTgrZY8i5qJ"
-os.environ["QIANFAN_SK"] = "CSnOr9SaRUk7zhnvfnL4X8NZ4WNq8pOO"
+os.environ["QIANFAN_AK"] = ""
+os.environ["QIANFAN_SK"] = ""
 
 chat_comp = qianfan.ChatCompletion()
 
